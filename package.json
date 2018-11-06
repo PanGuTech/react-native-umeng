@@ -1,0 +1,35 @@
+{
+  "name": "react-native-umeng",
+  "version": "0.0.1",
+  "description": "react native umeng",
+  "main": "index.js",
+  "directories": {
+    "examples": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanGuTech/react-native-umeng.git"
+  },
+  "keywords": [
+    "umeng",
+    "react-native",
+    "component",
+    "multi-language",
+    "cross-platform"
+  ],
+  "author": "PanGu Tech <dev@touguyun.cn>",
+  "contributors": [
+    {
+      "name": "Kennytian",
+      "email": "kenny_tian@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PanGuTech/react-native-umeng/issues"
+  },
+  "homepage": "https://github.com/PanGuTech/react-native-umeng#readme"
+}
