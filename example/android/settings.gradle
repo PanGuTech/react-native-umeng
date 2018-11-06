@@ -1,3 +1,5 @@
 rootProject.name = 'PanguUmengDemo'
+include ':@pangu/react-native-umeng'
+project(':@pangu/react-native-umeng').projectDir = new File(rootProject.projectDir, '../node_modules/@pangu/react-native-umeng/android')
 
 include ':app'
