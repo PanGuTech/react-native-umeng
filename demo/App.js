@@ -9,7 +9,9 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  NativeModules,
+  TouchableOpacity
 } from 'react-native';
 
 const instructions = Platform.select({
@@ -21,18 +23,26 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {
+
+  test(){
+    NativeModules.PanguUmengModule.test('---');
+  }
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to UmengDemo!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
         </Text>
+      <TouchableOpacity onPress={()=>{
+        this.test();
+    }}>
         <Text style={styles.instructions}>
           {instructions}
         </Text>
+      </TouchableOpacity>
       </View>
     );
   }

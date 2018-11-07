@@ -1,6 +1,7 @@
 package com.demo;
 
 import com.facebook.react.ReactActivity;
+import com.umeng.analytics.MobclickAgent;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +12,17 @@ public class MainActivity extends ReactActivity {
     @Override
     protected String getMainComponentName() {
         return "demo";
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }
