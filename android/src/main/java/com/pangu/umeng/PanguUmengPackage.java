@@ -6,17 +6,19 @@ import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
 public class PanguUmengPackage implements ReactPackage {
+    public PanguUmengModule panguUmengModule ;
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        return Arrays.asList(new NativeModule[]{
-                // Modules from third-party
-                new PanguUmengModule(reactContext),
-        });
+        panguUmengModule = new PanguUmengModule(reactContext);
+        List<NativeModule> list = new ArrayList<>();
+        list.add(panguUmengModule);
+        return list;
     }
 
     public List<Class<? extends JavaScriptModule>> createJSModules() {
