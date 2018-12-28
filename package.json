@@ -1,36 +1,15 @@
 {
-  "_from": "@pangu/react-native-umeng@^0.0.4",
-  "_id": "@pangu/react-native-umeng@0.0.4",
-  "_inBundle": false,
-  "_integrity": "sha1-CVJqW/RxYIHPqoopZ2b1uFgCsdo=",
-  "_location": "/@pangu/react-native-umeng",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "@pangu/react-native-umeng@^0.0.4",
-    "name": "@pangu/react-native-umeng",
-    "escapedName": "@pangu%2freact-native-umeng",
-    "scope": "@pangu",
-    "rawSpec": "^0.0.4",
-    "saveSpec": null,
-    "fetchSpec": "^0.0.4"
+  "name": "@pangu/react-native-umeng",
+  "version": "0.0.5",
+  "description": "Umeng support in React Native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "http://registry.npm.taobao.org/@pangu/react-native-umeng/download/@pangu/react-native-umeng-0.0.4.tgz",
-  "_shasum": "09526a5bf4716081cfaa8a296766f5b85802b1da",
-  "_spec": "@pangu/react-native-umeng@^0.0.4",
-  "_where": "/Users/Mike/Project/znxg_app",
-  "author": {
-    "name": "PanGu Tech",
-    "email": "dev@touguyun.cn"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanGuTech/react-native-umeng.git"
   },
-  "bugs": {
-    "url": "https://github.com/PanGuTech/react-native-umeng/issues"
-  },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Kennytian",
@@ -41,12 +20,6 @@
       "email": "qingqingyeshi311@163.com"
     }
   ],
-  "deprecated": false,
-  "description": "react native umeng",
-  "directories": {
-    "example": "demo"
-  },
-  "homepage": "https://github.com/PanGuTech/react-native-umeng#readme",
   "keywords": [
     "umeng",
     "react-native",
@@ -54,15 +27,16 @@
     "multi-language",
     "cross-platform"
   ],
-  "license": "MIT",
-  "main": "main.js",
-  "name": "@pangu/react-native-umeng",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PanGuTech/react-native-umeng.git"
+  "dependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.40"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "PanGu Tech",
+    "email": "dev@touguyun.cn"
   },
-  "version": "0.0.4"
+  "bugs": {
+    "url": "https://github.com/PanGuTech/react-native-umeng/issues"
+  },
+  "homepage": "https://github.com/PanGuTech/react-native-umeng#readme"
 }
