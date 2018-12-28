@@ -1,6 +1,6 @@
 {
   "name": "@pangu/react-native-umeng",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Umeng support in React Native.",
   "main": "index.js",
   "scripts": {
